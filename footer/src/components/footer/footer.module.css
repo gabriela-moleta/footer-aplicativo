@@ -1,5 +1,5 @@
 .footer {
-    background-color: #00bfa5;
+    background-color: #00DAC7;
     color: white;
     padding: 20px;
     margin-bottom: 0;
@@ -13,14 +13,13 @@
     flex-wrap: wrap;
   }
   
-  .about, .links, .newsletter {
-    flex: 1;
-    margin: 10px;
-  }
+ 
   
   .logo {
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Caveat', cursive;
+
   }
   
   .links ul {
@@ -31,11 +30,20 @@
   .links ul li a {
     color: white;
     text-decoration: none;
+
   }
   
   .newsletter .inputGroup {
     display: flex;
     gap: 10px;
+    
+  }
+
+  .newsletter {
+    margin-left: 1000px;
+    
+   
+    
   }
   
   .newsletter input {
@@ -46,7 +54,7 @@
   
   .button {
     background-color: white;
-    color: #00bfa5;
+    color: #45eed7;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -60,3 +68,18 @@
     padding-top: 10px;
   }
   
+  .about {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 10px; /* Espaço entre os elementos */
+    
+  }
+  
+  .links {
+    margin-left: 500px;
+  }
+  
+  .description {
+    margin-left: 100px;
+  }
+
